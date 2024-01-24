@@ -1,0 +1,23 @@
+@model RegisterModel
+<div>
+    <form asp-action="Register" asp-controller="Home" method="post">
+        <h3>Get staerted</h3>
+        <div class="form-control">
+            <label asp-for="UserName">Username</label>
+            <input asp-for="UserName">
+        </div>
+        <div class="form-control">
+            <label asp-for="Email"></label>
+            <input type="Email" asp-for="Email">
+        </div>
+        <div class="form-control">
+            <label asp-for="Password"></label>
+            <input type="password" asp-for="Password">
+        </div>
+        <div class="form-control">
+            <label asp-for="Password">Confim password</label>
+            <input type="password" asp-for="Password">
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</div>

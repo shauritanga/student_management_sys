@@ -1,0 +1,19 @@
+@model LoginModel
+<div>
+
+    <form asp-action="Login" asp-controller="Home" method="post">
+        <h3>Admin</h3>
+        <div class="form-control">
+            <label asp-for="UserName">Username</label>
+            <input asp-for="UserName">
+        </div>
+        <div class="form-control">
+            <label asp-for="Password"></label>
+            <input type="password" asp-for="Password">
+        </div>
+        <label>
+            <input type="checkbox" asp-for="RememberMe"> Remember Me
+        </label>
+        <input type="submit" value="login">
+    </form>
+</div>
