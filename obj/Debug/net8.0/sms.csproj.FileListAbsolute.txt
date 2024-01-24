@@ -136,3 +136,4 @@
 /Users/imac/Desktop/sms/obj/Debug/net8.0/sms.genruntimeconfig.cache
 /Users/imac/Desktop/sms/obj/Debug/net8.0/ref/sms.dll
 /Users/imac/Desktop/sms/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/imac/Desktop/sms/obj/Debug/net8.0/sms.sourcelink.json

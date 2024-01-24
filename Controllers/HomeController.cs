@@ -45,6 +45,7 @@ private readonly UserManager<IdentityUser> _userManager;
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 await _signInManager.SignInAsync(user, model.RememberMe, "false");
+                HttpContext.Session.SetString("UserName", model.UserName);
                 return RedirectToAction("Index", "Student"); // Redirect to a successful login page
             }
 
